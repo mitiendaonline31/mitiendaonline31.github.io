@@ -1,0 +1,51 @@
+@import url(style.css);
+
+#portada2 {
+    background-image: url("../imagenes/portada_Mesa\ de\ trabajo\ 1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada2 {
+    height: 1000px;
+    padding-top: 25px;
+}
+
+.boton_portada {
+    height: 100%;
+}
+
+.productos_titulo h3 {
+    text-align: center;
+    color: #720303;
+    padding-bottom: 80px;
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+.servicio_foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#buscador1 {
+    border: none;
+    outline: none;
+}
+
+.input_buscador {
+    border: 2px solid #720303;
+    border-radius: 50px;
+    height: fit-content;
+    padding: 10px 50px;
+}

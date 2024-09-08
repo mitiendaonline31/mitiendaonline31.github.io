@@ -1,0 +1,24 @@
+footer {
+    background-color: var(--colornegro);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: var(--colorblanco);
+    padding: 25px 25px;
+
+    & .politicas {
+        display: flex;
+        gap: 50px;
+
+        & a {
+            color: var(--colorblanco);
+        }
+
+        & a:hover {
+            color: #e6ca2d;
+        }
+    }
+
+}
