@@ -1,0 +1,113 @@
+@import url(style.css);
+
+.fondo{
+    background-color: #d38c8c;
+}
+
+.datos {
+    padding: 30px 750px 0px 750px;
+
+    & h3 {
+        text-align: center;
+        background-color: #f0d3d3;
+        border-radius: 25px;
+        border: 4px solid#7a0505;
+        
+    }
+}
+
+.tituloformulario {
+    padding: 30px 640px 30px 640px;
+
+    & h3 {
+        
+        text-align: center;
+        background-color: #f0d3d3;
+        border-radius: 25px;
+        border: 4px solid#7a0505;
+        
+    }
+}
+.formulario_items {
+    background-color: #f0d3d3;
+    gap: 30px;
+    border-radius: 25px;
+    border: 4px solid#7a0505;
+    padding: 20px;
+}
+
+.formulariodiseño {
+    padding: 30px 300px 30px 300px;
+}
+
+.lista_datos {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    margin-top: 50px;
+    padding: 30px 30px 30px 300px;
+}
+
+.lista_datos_1 {
+    align-items: center;
+    
+
+}
+
+.lista_datos_textos {
+
+    text-align: center;
+    padding-top: 20px;
+
+    & h6 {
+    font-size: 2rem;
+    }
+
+    & a {
+        font-size: 1.5rem; 
+        color: #7a0505;
+        
+    }
+}
+
+.lista_datos_imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 205px;
+    background-color: #f0d3d3;
+    border-radius: 10px;
+
+}
+
+.grupos_input input, textarea{
+    border-color: #7a0505;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+ .mapatitulo {
+    padding: 30px 540px 30px 540px;
+
+    & h3 {
+        
+        text-align: center;
+        background-color: #f0d3d3;
+        border-radius: 25px;
+        border: 4px solid#7a0505;
+        
+    }
+ }
+
+.mapadiseño {
+    
+    padding: 30px 540px 30px 540px;
+
+  & img {
+    align-items: center;
+    }
+}
+
